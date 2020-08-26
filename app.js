@@ -1,4 +1,4 @@
-count = 1;
+let count = 1;
 
 function renderImage(){
     let element = document.getElementById('pokemon')
