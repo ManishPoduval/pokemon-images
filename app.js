@@ -8,7 +8,7 @@ function renderImage(){
     // so the line below will give us the element `<div id="pokemon"></div>`
     let element = document.getElementById('pokemon')
 
-    // the innreHTML property helps us update the HTML contents of that element
+    // the innerHTML property helps us update the HTML contents of that element
     element.innerHTML = `<img class="poke" src="https://tinyurl.com/ironhack-pokemons/${count}.svg"/>`
 }
 
